@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace IvanAquino\LaravelTaildashboards\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelTaildashboardsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-taildashboards';
 
     public $description = 'My command';
 
