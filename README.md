@@ -1,11 +1,11 @@
-# This is my package laravel-taildashboards
+# laravel-taildashboards
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ivanaquino/laravel-taildashboards.svg?style=flat-square)](https://packagist.org/packages/ivanaquino/laravel-taildashboards)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ivanaquino/laravel-taildashboards/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/ivanaquino/laravel-taildashboards/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/ivanaquino/laravel-taildashboards/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/ivanaquino/laravel-taildashboards/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/ivanaquino/laravel-taildashboards.svg?style=flat-square)](https://packagist.org/packages/ivanaquino/laravel-taildashboards)
 
-This Laravel package provides an effortless way to implement beautiful and responsive dashboard templates from Taildashboards. Taildashboards offers a collection of pre-designed templates built with Tailwind CSS, and this package helps you to incorporate them into your Laravel application with ease.This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This Laravel package provides an effortless way to implement beautiful and responsive dashboard templates from [Taildashboards](https://taildashboards.com). Taildashboards offers a collection of pre-designed templates built with Tailwind CSS, and this package helps you to incorporate them into your Laravel application with ease.This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Installation
 
