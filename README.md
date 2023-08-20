@@ -68,6 +68,15 @@ php artisan vendor:publish --tag="laravel-taildashboards-views"
 </x-laravel-taildashboards::layout-tailapp>
 ```
 
+# Roadmap
+- [x] [TailApp](https://taildashboards.com/get/tailapp)
+- [ ] [TailTube](https://taildashboards.com/get/tailtube)
+- [ ] [TailFlix](https://taildashboards.com/get/tailflix)
+- [ ] [TailLism](https://taildashboards.com/get/tailism)
+- [ ] [TailAdmin](https://taildashboards.com/get/tailadmin)
+- [ ] [TailSocial](https://taildashboards.com/get/tailsocial)
+- [ ] Test suit
+
 ## Testing
 
 ```bash
