@@ -31,24 +31,12 @@ return [
     | You can find icons here https://feathericons.com/
     */
     'menu' => [
-        [
-            'label' => 'Dashboard',
-            'route' => 'dashboard',
-            'active_route' => 'dashboard',
-            'icon' => 'home',
-        ],
-        [
-            'label' => 'Dashboard',
-            'route' => 'view-1',
-            'active_route' => 'view-1',
-            'icon' => 'circle',
-        ],
-        [
-            'label' => 'Dashboard',
-            'route' => 'view-2',
-            'active_route' => 'view-2',
-            'icon' => 'home',
-        ],
+        // [
+        //     'label' => 'Dashboard',
+        //     'route' => 'dashboard',
+        //     'active_route' => 'dashboard',
+        //     'icon' => 'home',
+        // ],
     ],
 
     /*
@@ -60,12 +48,12 @@ return [
     |
     */
     'second-menu' => [
-        [
-            'label' => 'Dashboard',
-            'route' => 'dashboard',
-            'active_route' => 'dashboard',
-            'icon' => 'settings',
-        ],
+        // [
+        //     'label' => 'Dashboard',
+        //     'route' => 'dashboard',
+        //     'active_route' => 'dashboard',
+        //     'icon' => 'settings',
+        // ],
     ],
 
     /*
