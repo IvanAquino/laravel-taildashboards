@@ -76,5 +76,5 @@ return [
     */
     'include_feathericons' => true,
 
-    'footer' => 'Powered by Laravel'
+    'footer' => 'Powered by Laravel',
 ];
