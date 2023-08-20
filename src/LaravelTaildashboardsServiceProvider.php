@@ -4,7 +4,6 @@ namespace IvanAquino\LaravelTaildashboards;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use IvanAquino\LaravelTaildashboards\Commands\LaravelTaildashboardsCommand;
 
 class LaravelTaildashboardsServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +16,7 @@ class LaravelTaildashboardsServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-taildashboards')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-taildashboards_table')
-            ->hasCommand(LaravelTaildashboardsCommand::class);
+            ->hasConfigFile('taildashboards')
+            ->hasViews('laravel-taildashboards');
     }
 }
