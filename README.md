@@ -15,6 +15,18 @@ You can install the package via composer:
 composer require ivanaquino/laravel-taildashboards
 ```
 
+You need tailwind installation on your laravel, if you're using jetstream or breeze you have it installed but if not you can follow the [official tailwindcss guide](https://tailwindcss.com/docs/guides/laravel)
+
+If you're having problems with broken styles you can add this line into tailwind.config.js
+
+```json
+content: [
+    // ...
+    './vendor/ivanaquino/laravel-taildashboards/resources/views/**/*.blade.php',
+    // ...
+]
+```
+
 You can publish the config file with:
 
 ```bash
