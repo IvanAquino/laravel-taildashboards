@@ -7,6 +7,11 @@
 
 This Laravel package provides an effortless way to implement beautiful and responsive dashboard templates from [Taildashboards](https://taildashboards.com). Taildashboards offers a collection of pre-designed templates built with Tailwind CSS, and this package helps you to incorporate them into your Laravel application with ease.This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
+<p>
+    <img src="screenshots/tailapp.png?raw=1" width="600" />
+    <img src="screenshots/tailism.png?raw=1" width="600" />
+</p>
+
 ## Installation
 
 You can install the package via composer:
@@ -95,6 +100,16 @@ php artisan vendor:publish --tag="laravel-taildashboards-views"
 <x-laravel-taildashboards::layout-tailapp>
     Lorem, ipsum dolor sit amet consectetur
 </x-laravel-taildashboards::layout-tailapp>
+```
+
+#### Availables
+
+```php
+@extends('laravel-taildashboards::layouts.tailapp')
+@extends('laravel-taildashboards::layouts.tailism')
+
+<x-laravel-taildashboards::layout-tailapp>
+<x-laravel-taildashboards::layout-tailism>
 ```
 
 # Roadmap
