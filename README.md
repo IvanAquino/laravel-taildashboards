@@ -17,14 +17,31 @@ composer require ivanaquino/laravel-taildashboards
 
 You need tailwind installation on your laravel, if you're using jetstream or breeze you have it installed but if not you can follow the [official tailwindcss guide](https://tailwindcss.com/docs/guides/laravel)
 
+You will need the npm package **@tailwindcss/typography**, and add the font config to your tailwind.config.js
+
+```js
+export default {
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+            },
+        },
+    },
+    plugins: [require("@tailwindcss/typography")],
+};
+```
+
 If you're having problems with broken styles you can add this line into tailwind.config.js
 
-```json
-content: [
-    // ...
-    './vendor/ivanaquino/laravel-taildashboards/resources/views/**/*.blade.php',
-    // ...
-]
+```js
+export default {
+    content: [
+        // ...
+        "./vendor/ivanaquino/laravel-taildashboards/resources/views/**/*.blade.php",
+        // ...
+    ],
+};
 ```
 
 You can publish the config file with:
@@ -81,12 +98,14 @@ php artisan vendor:publish --tag="laravel-taildashboards-views"
 ```
 
 # Roadmap
+
 - [x] [TailApp](https://taildashboards.com/get/tailapp)
 - [ ] [TailTube](https://taildashboards.com/get/tailtube)
 - [ ] [TailFlix](https://taildashboards.com/get/tailflix)
-- [ ] [TailLism](https://taildashboards.com/get/tailism)
+- [x] [TailLism](https://taildashboards.com/get/tailism)
 - [ ] [TailAdmin](https://taildashboards.com/get/tailadmin)
 - [ ] [TailSocial](https://taildashboards.com/get/tailsocial)
+- [ ] Custom components for each dashboard
 - [ ] Test suit
 
 ## Testing
